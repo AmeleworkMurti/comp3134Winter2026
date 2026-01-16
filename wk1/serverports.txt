@@ -1,0 +1,16 @@
+Definition of server port: server port is a numbered endpoint where network services send and receive data.
+
+Server port range: 0 to 65535
+
+how many bits: 16 bits 
+
+10 common server ports: 22(SSH)
+                        80(HTTP)
+                        443(HTTPS)
+                        20(FTP)
+                        21(FTP -CONTROL)
+                        23(TELNET)
+                        25(SMTP -EMAIL)
+                        110(POP3)
+                        143(IMAP)
+                        53(DNS)
