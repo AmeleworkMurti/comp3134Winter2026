@@ -1,0 +1,6 @@
+domain 1: google.com
+domain 2: amazon.com
+       3: openai.com
+       4: wikipedia.org
+       5: bbc.com
+
