@@ -1,0 +1,10 @@
+00:41:43.014519 IP comp3134-CyberSecurity.ssh > pool-99-239-132-172.cpe.net.cable.rogers.com.64537: Flags [P.], seq 2818262443:2818262551, ack 847137168, win 715, length 108
+00:41:43.014589 IP comp3134-CyberSecurity.ssh > pool-99-239-132-172.cpe.net.cable.rogers.com.64537: Flags [P.], seq 108:144, ack 1, win 715, length 36
+00:41:43.014629 IP comp3134-CyberSecurity.ssh > pool-99-239-132-172.cpe.net.cable.rogers.com.64537: Flags [P.], seq 144:196, ack 1, win 715, length 52
+00:41:43.014665 IP comp3134-CyberSecurity.ssh > pool-99-239-132-172.cpe.net.cable.rogers.com.64537: Flags [P.], seq 196:264, ack 1, win 715, length 68
+00:41:43.014702 IP comp3134-CyberSecurity.ssh > pool-99-239-132-172.cpe.net.cable.rogers.com.64537: Flags [P.], seq 264:332, ack 1, win 715, length 68
+00:41:43.014739 IP comp3134-CyberSecurity.ssh > pool-99-239-132-172.cpe.net.cable.rogers.com.64537: Flags [P.], seq 332:368, ack 1, win 715, length 36
+00:41:43.016220 IP pool-99-239-132-172.cpe.net.cable.rogers.com.64537 > comp3134-CyberSecurity.ssh: Flags [.], ack 0, win 510, length 0
+00:41:43.024548 IP pool-99-239-132-172.cpe.net.cable.rogers.com.64537 > comp3134-CyberSecurity.ssh: Flags [.], ack 368, win 509, length 0
+00:42:05.287452 IP inet-research-scan-5.mpi-inf.mpg.de.37776 > comp3134-CyberSecurity.ssh: Flags [S], seq 3315200867, win 64240, options [mss 1460,sackOK,TS val 2901407294 ecr 0,nop,wscale 7], length 0
+00:42:05.287535 IP comp3134-CyberSecurity.ssh > inet-research-scan-5.mpi-inf.mpg.de.37776: Flags [S.], seq 2070875206, ack 3315200868, win 65160, options [mss 1460,sackOK,TS val 3618973051 ecr 2901407294,nop,wscale 7], length 0
