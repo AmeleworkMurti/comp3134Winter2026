@@ -1,0 +1,9 @@
+Status: active
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     LIMIT       Anywhere                  
+Apache Full                ALLOW       Anywhere                  
+22/tcp (v6)                LIMIT       Anywhere (v6)             
+Apache Full (v6)           ALLOW       Anywhere (v6)             
+

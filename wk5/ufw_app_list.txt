@@ -1,0 +1,8 @@
+Available applications:
+  Apache
+  Apache Full
+  Apache Secure
+  OpenSSH
+  Postfix
+  Postfix SMTPS
+  Postfix Submission
