@@ -1,0 +1,5 @@
+Issue:
+The page allows users to input any path without validation. This can lead to errors or unintended behavior.
+
+Sensitive Information:
+The script exposes file and directory structure of the server, which can help attackers understand the system and locate sensitive files.

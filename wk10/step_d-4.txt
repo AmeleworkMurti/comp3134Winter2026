@@ -1,0 +1,5 @@
+Issue:
+The application allows directory traversal using ../ which lets users access directories outside the intended folder.
+
+Sensitive Information:
+Attackers can view system files and directories outside the web root, potentially exposing critical system information.

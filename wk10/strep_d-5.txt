@@ -1,0 +1,5 @@
+Issue:
+The application does not sanitize encoded inputs, allowing attackers to bypass filters using encoded directory traversal.
+
+Sensitive Information:
+This can expose sensitive directories and files using encoded attack patterns.

@@ -1,0 +1,8 @@
+Mitigation:
+
+1. Used basename() to prevent directory traversal attacks by restricting access to the current directory only.
+
+2. Used file_exists() to ensure that only valid directories are accessed.
+
+Bonus uestion:
+Blocked filenames by checking for '.' in the input to ensure only directories are allowed.

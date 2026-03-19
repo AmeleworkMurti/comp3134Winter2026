@@ -1,0 +1,5 @@
+Mitigation:
+
+HTML comments are visible in the browser source and can expose sensitive information.
+
+To fix this, comments were converted to PHP comments, which are processed on the server side and are not visible to users in the browser.
