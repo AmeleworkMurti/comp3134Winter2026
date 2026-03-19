@@ -1,0 +1,10 @@
+Difference:
+
+strip_tags():
+Removes HTML and script tags completely from the input.
+
+htmlentities():
+Converts special characters into HTML-safe entities, so the input is displayed as text instead of being executed.
+
+Conclusion:
+htmlentities() is safer because it preserves input while preventing execution, whereas strip_tags() removes content entirely.
