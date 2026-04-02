@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reflected XSS</title>
+</head>
+<body>
+
+<h1>Reflected XSS Demo</h1>
+
+<form id="xssForm">
+    <input type="text" id="userInput" placeholder="Enter something">
+    <button type="submit">Submit</button>
+</form>
+
+<div id="output"></div>
+
+<script>
+    document.getElementById("xssForm").addEventListener("submit", function(event) {
+        event.preventDefault();
+
+        let input = document.getElementById("userInput").value;
+
+        // force execution
+        document.getElementById("output").innerHTML = input;
+
+        // DEBUG: log to console
+        console.log("Injected:", input);
+    });
+</script>
+
+
+
+
+</body>
+</html>

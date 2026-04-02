@@ -1,0 +1,7 @@
+The issue is that user input is stored in a file and displayed without sanitization.
+
+When the PHP file reads the content and outputs it directly, any malicious JavaScript code stored in the file is executed in the browser.
+
+This allows attackers to inject scripts that can redirect users, steal data, or perform actions without user consent.
+
+This is known as Stored XSS.

